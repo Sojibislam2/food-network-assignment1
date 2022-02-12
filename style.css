@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 nav ul{
     list-style: none;
@@ -26,7 +27,8 @@ ul li a:hover{
 }
 .half-width{
     width: 50%;
-    padding: 5%;
+    padding-left: 5%;
+    
 }
 .half-width img{
     width: 100%;
@@ -40,6 +42,45 @@ ul li a:hover{
    padding: 10px 20px;
    color: white;
    font-size: xx-large;
-   border: 1px solid;
-   border-radius: 10px;
+  
+   border-radius: 20px;
+   margin-top: 25px;
+   
+}
+.about-us{
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 50px;
+    }
+.about-item{
+    width: 50%;
+    padding: 5%;
+}
+.about-item img {
+    width: 57.5%;
+    margin-left: 100px;
+}
+.recipies{
+    display: flex;
+}
+.recipies-item{
+    width: 32%;
+    padding: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px grey ;
+}
+.recipies-item img {
+    width: 100%;
+}
+.recipies-area{
+    text-align: center;
+}
+footer{
+    height: 60px;
+    text-align: center;
+    
 }
