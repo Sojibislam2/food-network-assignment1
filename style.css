@@ -2,6 +2,18 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+nav{
+    display: block;
+    background-color: goldenrod;
+    position: fixed;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
 nav ul{
     list-style: none;
     display: flex;
@@ -23,7 +35,9 @@ ul li a:hover{
     background-color: gray;
 }
 .header-area{
-    display: flex;
+    display:inline-flex;
+    margin-top: 100px;
+    
 }
 .half-width{
     width: 50%;
@@ -42,6 +56,8 @@ ul li a:hover{
    padding: 10px 20px;
    color: white;
    font-size: xx-large;
+   display: inline-block;
+   margin-top: 60px;
   
    border-radius: 20px;
    margin-top: 25px;
@@ -79,8 +95,44 @@ ul li a:hover{
 .recipies-area{
     text-align: center;
 }
-footer{
-    height: 60px;
-    text-align: center;
-    
+.recepie{
+    margin-bottom: 100px;
 }
+footer {
+    display: block;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    width: 100%;
+    border-top: 1px solid white;
+    text-align: center;
+  }
+  footer p{
+      color: white;
+  }
+  @media screen and (max-width: 700px) {
+    .header-area{
+        display: inline-block;
+        padding: 5%;
+    }
+    .half-width{
+        width: 100%;
+        margin-top: 50px;
+  }
+  .about-us{
+      display: inline;
+  }
+  .about-item{
+      width: 100%;
+  }
+  .recipies{
+      display: inline;
+  }
+  .recipies-item{
+      width: 100%;
+      margin-top: 40px;
+  }
+  }
